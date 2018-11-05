@@ -10,7 +10,7 @@
  *
  * Quien llama a la función toma responsabilidad de la memoria dinámica del
  * arreglo devuelto. La función devuelve NULL si falló alguna llamada a
- * malloc(), o si ‘sep’ es '\0'.
+ * malloc(), y, la cadena en un arreglo si ‘sep’ es '\0'.
  */
 char** split(const char* str, char sep);
 
