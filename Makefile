@@ -10,4 +10,3 @@ valgrind: build
 	valgrind $(VFLAGS) ./pruebas
 
 run: build valgrind
-	./pruebas
